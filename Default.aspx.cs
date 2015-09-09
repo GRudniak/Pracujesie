@@ -7,6 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Drawing;
+using System.Configuration;
 
 public partial class _Default : System.Web.UI.Page
 {
@@ -22,8 +23,8 @@ public partial class _Default : System.Web.UI.Page
     }
 
     public void LoadGrid() {
-        string CS = "Server=LENOVO-PC;Integrated security=SSPI;database=Pracujesie;";
-        SqlConnection con = new SqlConnection(CS);
+        //string CS = "Server=LENOVO-PC;Integrated security=SSPI;database=Pracujesie;";
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
         SqlCommand cmd = new SqlCommand("Select * from JobOffers", con);
         con.Open();
         SqlDataAdapter da = new SqlDataAdapter(cmd);
