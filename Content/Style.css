@@ -1,0 +1,184 @@
+﻿body {
+    font-family:Arial;
+    margin:0px;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+     text-decoration: none;
+      color:dimgray;
+}
+
+a:active {
+     text-decoration: none;
+      color:black;
+}
+
+
+
+
+.containerTop {
+   width:1000px;
+   height:auto;
+   margin-left:auto;
+   margin-right:auto;
+}
+.containerMenu {
+   width:1000px;
+   height:auto;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.topLogo {
+    float: left;
+    width: 246px;
+    height:auto;
+}
+.topInscription{
+    margin-top:37px;
+    margin-left:10px;
+    float: left;
+    width: 346px;
+    height:auto;
+}
+.topButtons{
+    float:right;
+    margin-top:30px;
+}
+
+/* MENU*/
+
+.menuHorizontalStrip{
+    width:100%;
+    height:50px;
+    background-color:#32323c;
+}
+
+/*searchbox*/
+
+.searchBox{
+    margin-top:5px;
+    background-color:#ececee;
+    width:1000px;
+    height:100px;
+    margin-left:auto;
+   margin-right:auto;
+}
+
+.searchCol1{
+    margin-left:145px;
+    width:320px;
+    height:100px;
+    float:left;
+}
+
+.searchCol2{
+    width:320px;
+    height:100px;
+    float:left;
+}
+
+.searchCol3{
+    width:50px;
+    height:100px;
+    float:left;
+}
+
+#searchField{
+    margin-top:14px;
+    width:300px;
+    height:30px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.textField{
+    margin-top:14px;
+    width:300px;
+    height:30px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+#sbtn {
+      margin-top:16px;
+}
+
+.searchButton{
+    width:51px;
+    height:30px;
+}
+
+.containerMain{
+    margin-top:5px;
+    width:1000px;
+    height:auto;
+     margin-left:auto;
+   margin-right:auto;
+}
+
+.jobOffersBox{
+    margin-top:5px;
+    width:700px;
+    height:auto;
+}
+.jobOfferRow{
+    width:700px;
+    height:30px;
+}
+.jobTitle {
+    float:left;
+    font-weight: bold;
+}
+.jobCategory{
+     float:right;
+   
+}
+
+.bottomText {
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.bottomText2 {
+    font-size:9pt;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.bottomContainer {
+   background-color:#ececee;
+    margin-top:5px;
+    width:1000px;
+    height:270px;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+
+.bottomColumn{
+    width:30%;
+    height:auto;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    float:left;
+}
+
+
